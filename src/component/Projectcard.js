@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
+import { Button } from "@material-ui/core";
 import Card from "@material-ui/core/Card";
 import CardHeader from "@material-ui/core/CardHeader";
 import CardMedia from "@material-ui/core/CardMedia";
@@ -12,7 +13,9 @@ import Avatar from "@material-ui/core/Avatar";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
 import { Box } from "@material-ui/core";
-
+import { Link } from "react-router-dom";
+import RemoveRedEyeIcon from "@material-ui/icons/RemoveRedEye";
+import GitHubIcon from "@material-ui/icons/GitHub";
 const useStyles = makeStyles({
   avatar: {
     backgroundColor: "#212121",
@@ -30,6 +33,9 @@ const useStyles = makeStyles({
   },
   whtcolor: {
     color: "white",
+  },
+  righbutton: {
+    marginLeft: 20,
   },
 });
 const Projectcard = ({ cardata }) => {
@@ -77,16 +83,33 @@ const Projectcard = ({ cardata }) => {
           className={classes.whtcolor}
         >
           <CardContent>
-            <Typography paragraph>Method:</Typography>
-            <Typography paragraph>
+            <Typography paragraph>Project Description :</Typography>
+            {/* <Typography paragraph>
               Heat 1/2 cup of the broth in a pot until simmering, add saffron
               and set aside for 10 minutes.
-            </Typography>
+            </Typography> */}
 
             <Typography paragraph>{cardata.text}</Typography>
-            <Typography>
-              Set aside off of the heat to let rest for 10 minutes, and then
-              serve.
+            <Typography paragraph>
+              <a href={cardata.livelink} className="LiveProject">
+                <Button
+                  color="primary"
+                  variant="contained"
+                  startIcon={<RemoveRedEyeIcon />}
+                >
+                  Live
+                </Button>
+              </a>
+              <a href={cardata.Sourcelink} className="LiveProject">
+                <Button
+                  color="primary"
+                  variant="contained"
+                  className={classes.righbutton}
+                  startIcon={<GitHubIcon />}
+                >
+                  Source Code
+                </Button>
+              </a>
             </Typography>
           </CardContent>
         </Collapse>

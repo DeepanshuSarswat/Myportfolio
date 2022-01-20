@@ -21,4 +21,17 @@ body {
 }
 .App {
   background-color: #212121;
+  overflow-x: hidden;
+}
+.LiveProject {
+  text-decoration: none;
+}
+
+#status {
+  color: white;
+  font-size: 12px;
+  font-weight: 550;
+  display: block;
+  margin-left: 0;
+  text-align: right;
 }

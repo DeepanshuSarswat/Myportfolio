@@ -43,14 +43,14 @@ const useStyles = makeStyles({
 });
 const Skill = () => {
   const classes = useStyles();
-  const lists = ["ReactJs", "HTML", "CSS", "SaSS", "Redux", "NextJs"];
+  const lists = ["ReactJs", "HTML", "CSS", "SaSS", "Redux"];
   const listes = [
     "JavaScript",
     "Bootstrap",
     "Tailwind CSS",
     "Git/Github",
     "Material-Ui",
-    "React Testing Library",
+    ,
     "TypeScript",
     "Firebase",
     "React Query",

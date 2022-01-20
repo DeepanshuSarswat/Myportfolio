@@ -30,51 +30,56 @@ export default function Projects() {
   const classes = useStyles();
   let [carddata, setcarddata] = useState([
     {
-      heading: "Twitter Clone",
+      heading: "Gmail Clone",
       image:
-        "https://www.pngitem.com/pimgs/m/439-4398200_twitter-logo-grey-no-background-transparent-cartoons-twitter.png",
-      text: "Add rice and stir very gently to distribute. Top with artichokes and peppers, and cook without stirring, until most of the liquid is absorbed, 15 to 18 minutes. Reduce heat to medium-low, add reserved shrimp and mussels, tucking them down into the rice, and cook again without stirring, until mussels have opened and rice is just tender,5 to 7 minutes more.",
+        "https://www.google.com/gmail/about/static-2.0/images/logo-gmail.png?fingerprint=c2eaf4aae389c3f885e97081bb197b97",
+      text: `Hello folks 😃 ,
+      I made Gmail clone using #Reactjs , #Mui , and #Firebase .
+      I have tried that it should have the functionality of Gmail, as well as add some additional functionality to it.
+      In this I have also added the functionality of Darkmode and the functionality of Short Mail. as shown in the video below 👇🏻.`,
 
-      link: "https://www.linkedin.com/in/deepanshu-sarswat-b356121a6/",
+      livelink: "https://d-note-c4650.web.app/",
+      Sourcelink: "https://github.com/DeepanshuSarswat/supermail",
     },
     {
-      heading: "Netflix Clone",
-      image: "https://wallpapercave.com/wp/wp5063339.png",
-      text: "Add rice and stir very gently to distribute. Top with artichokes and peppers, and cook without stirring, until most of the liquid is absorbed, 15 to 18 minutes. Reduce heat to medium-low, add reserved shrimp and mussels, tucking them down into the rice, and cook again without stirring, until mussels have opened and rice is just tender,5 to 7 minutes more.",
-
-      link: "https://www.linkedin.com/in/deepanshu-sarswat-b356121a6/",
-    },
-    {
-      heading: "YouTube Clone",
+      heading: "Linkedin Clone",
       image:
-        "https://cdn.pixabay.com/photo/2015/01/05/16/48/hands-589475__480.png",
-      text: "Add rice and stir very gently to distribute. Top with artichokes and peppers, and cook without stirring, until most of the liquid is absorbed, 15 to 18 minutes. Reduce heat to medium-low, add reserved shrimp and mussels, tucking them down into the rice, and cook again without stirring, until mussels have opened and rice is just tender,5 to 7 minutes more.",
+        "https://images.unsplash.com/photo-1611944212129-29977ae1398c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGlua2VkaW58ZW58MHx8MHx8&w=1000&q=80",
+      text: `Hello folks 😃 ,
+      I made Linkedin clone using #Reactjs , #Mui , and #Firebase .
+      I have tried that it should have the functionality of Linkedin as well as add some additional functionality to it.
+      In this I have also added the functionality of Darkmode and the functionality.
+      in this we can share imgaes , videos , files as a post.
+      Also it has Signin and Signout functionality .
+      I have tried that its user interface is simple and beautiful.`,
 
-      link: "https://www.linkedin.com/in/deepanshu-sarswat-b356121a6/",
-    },
-    {
-      heading: "YouTube Clone",
-      image:
-        "https://cdn.pixabay.com/photo/2015/01/05/16/48/hands-589475__480.png",
-      text: "Add rice and stir very gently to distribute. Top with artichokes and peppers, and cook without stirring, until most of the liquid is absorbed, 15 to 18 minutes. Reduce heat to medium-low, add reserved shrimp and mussels, tucking them down into the rice, and cook again without stirring, until mussels have opened and rice is just tender,5 to 7 minutes more.",
-
-      link: "https://www.linkedin.com/in/deepanshu-sarswat-b356121a6/",
-    },
-    {
-      heading: "spotify clone",
-      image:
-        "https://www.wired.com/wp-content/uploads/2015/08/zfHNFDb5-1200x630.jpg",
-      text: "Add rice and stir very gently to distribute. Top with artichokes and peppers, and cook without stirring, until most of the liquid is absorbed, 15 to 18 minutes. Reduce heat to medium-low, add reserved shrimp and mussels, tucking them down into the rice, and cook again without stirring, until mussels have opened and rice is just tender,5 to 7 minutes more.",
-
-      link: "https://www.linkedin.com/in/deepanshu-sarswat-b356121a6/",
+      livelink: "https://linkdin-clone-791e8.web.app/",
+      Sourcelink: "https://github.com/DeepanshuSarswat/Linkdin-clone",
     },
     {
       heading: "Amazon Clone",
       image:
         "https://i.pinimg.com/originals/08/5f/d8/085fd8f7819dee3b716da73d3b2de61c.jpg",
-      text: "Add rice and stir very gently to distribute. Top with artichokes and peppers, and cook without stirring, until most of the liquid is absorbed, 15 to 18 minutes. Reduce heat to medium-low, add reserved shrimp and mussels, tucking them down into the rice, and cook again without stirring, until mussels have opened and rice is just tender,5 to 7 minutes more.",
+      text: `
+      Hello folks 😃 ,
+      I made Amazon clone using #Reactjs , #Mui , and #Firebase .
+      I have tried that it should have the functionality of Amazon as well as add some additional functionality to it.
+      I have tried that its user interface is simple and beautiful.
+      `,
+
+      livelink: "https://e-d9642.web.app/",
+      Sourcelink: "https://github.com/DeepanshuSarswat/supermail",
+    },
+    {
+      heading: "Netflix Clone",
+      image: "https://wallpapercave.com/wp/wp5063339.png",
+      text: `Hello folks 😃 ,
+      I made Netflix clone using #Reactjs , #Mui , and #Firebase .
+      I have tried that it should have the functionality of Netflix.
+      In this I have used IMDB api as shown in the video below 👇🏻.`,
 
       link: "https://www.linkedin.com/in/deepanshu-sarswat-b356121a6/",
+      livelink: "https://netflixx-8f159.web.app/",
     },
   ]);
   return (

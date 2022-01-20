@@ -76,7 +76,7 @@ export default function Homechild() {
           <CardMedia
             elevation={7}
             className={classes.media}
-            image="https://media-exp1.licdn.com/dms/image/C4E03AQG9Jn2tcpBT9A/profile-displayphoto-shrink_400_400/0/1613406079537?e=1633564800&v=beta&t=KiyJB_4kXVvI_Q17zqFZzY9RVjXxmgsuqIceyHXrpOo"
+            image="https://media-exp1.licdn.com/dms/image/C4E03AQG9Jn2tcpBT9A/profile-displayphoto-shrink_400_400/0/1613406079537?e=1648080000&v=beta&t=wNZ0fKPvxxmcwkPXAUXMyb6psR8J1D_te7_X_fFVUKI"
             title="Deepanshu Sarswat"
           />
           <CardContent className={classes.content}>
@@ -93,19 +93,26 @@ export default function Homechild() {
             </Typography>
           </CardContent>
           <CardActions disableSpacing className={classes.cardaction}>
-            <IconButton>
-              <LinkedInIcon className={classes.buttoncolor} />
-            </IconButton>
-            <IconButton>
-              <GitHubIcon className={classes.buttoncolor} />
-            </IconButton>
-            <IconButton>
-              <InstagramIcon className={classes.buttoncolor} />
-            </IconButton>
-
-            <IconButton>
-              <TwitterIcon className={classes.buttoncolor} />
-            </IconButton>
+            <a href="https://www.linkedin.com/in/deepanshu-sarswat-b356121a6/">
+              <IconButton>
+                <LinkedInIcon className={classes.buttoncolor} />
+              </IconButton>
+            </a>
+            <a href="https://github.com/DeepanshuSarswat">
+              <IconButton>
+                <GitHubIcon className={classes.buttoncolor} />
+              </IconButton>
+            </a>
+            <a href="https://www.instagram.com/1deepanshu.saraswat/">
+              <IconButton>
+                <InstagramIcon className={classes.buttoncolor} />
+              </IconButton>
+            </a>
+            <a href="https://twitter.com/DeepanshuSarsw4">
+              <IconButton>
+                <TwitterIcon className={classes.buttoncolor} />
+              </IconButton>
+            </a>
           </CardActions>
         </Card>
       </Box>
