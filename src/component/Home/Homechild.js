@@ -76,7 +76,7 @@ export default function Homechild() {
           <CardMedia
             elevation={7}
             className={classes.media}
-            image="https://media-exp1.licdn.com/dms/image/C4E03AQG9Jn2tcpBT9A/profile-displayphoto-shrink_400_400/0/1613406079537?e=1648080000&v=beta&t=wNZ0fKPvxxmcwkPXAUXMyb6psR8J1D_te7_X_fFVUKI"
+            image="https://media-exp1.licdn.com/dms/image/C4E03AQG9Jn2tcpBT9A/profile-displayphoto-shrink_800_800/0/1613406079537?e=1653523200&v=beta&t=XU4ekU6361dWFVFIATA7MIPjb6EAwBh52zfPZ_CcUAU"
             title="Deepanshu Sarswat"
           />
           <CardContent className={classes.content}>
