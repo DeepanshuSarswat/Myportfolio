@@ -30,6 +30,15 @@ export default function Projects() {
   const classes = useStyles();
   let [carddata, setcarddata] = useState([
     {
+      heading: "Profit King",
+      image: "https://www.finsmes.com/wp-content/uploads/2019/04/trading.jpg",
+      text: `I have tried to emulate a fully-fledged equity trading platform "PROFIT KING" where Front-end was handled by me and Backend by My Friend.
+      We can trade in equity of a particular stock in American Markets where we can analyse its fundamentals based on its quaterly and yearly results.`,
+
+      livelink: "http://profitking.herokuapp.com/",
+      Sourcelink: "https://github.com/DeepanshuSarswat/ProFitKing_Updated",
+    },
+    {
       heading: "Gmail Clone",
       image:
         "https://www.google.com/gmail/about/static-2.0/images/logo-gmail.png?fingerprint=c2eaf4aae389c3f885e97081bb197b97",
